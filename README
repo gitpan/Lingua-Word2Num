@@ -1,9 +1,9 @@
 
 
 This archive contains the distribution Lingua-Word2Num,
-version 0.044:
+version 0.0477:
 
-  Wrapper for text to number conversion modules of various languages in the Lingua:: hierarchy.
+  Wrapper for text to number conversion modules of various languages in the Lingua::XXX hierarchy.
 
 source: http://opensource.org
 
