@@ -1,7 +1,7 @@
 # For Emacs: -*- mode:cperl; mode:folding -*-
 
 package Lingua::Word2Num;
-# ABSTRACT: Wrapper for text to number conversion modules of various languages in the Lingua::XXX hierarchy.
+# ABSTRACT: A wrapper for Lingua:XXX::word2num modules.
 
 # {{{ use block
 
@@ -17,8 +17,7 @@ use Readonly;
 # {{{ variables
 
 my  Readonly::Scalar $COPY    = 'Copyright (C) PetaMem, s.r.o. 2004-present';
-my($ver)                       = ('$Rev: 477 $' =~ m{(\d+)}xms);
-our Readonly::Scalar $VERSION = $ver / 10_000;
+our Readonly::Scalar $VERSION = 0.0577;
 
 # }}}
 # {{{ templates for functional and object interface
@@ -218,14 +217,13 @@ Lingua::Word2Num
 
 =head1 VERSION
 
-version 0.0477
+version 0.0577
 
 =head1 DESCRIPTION
 
-Wrapper for text to number conversion modules of various languages in
-the Lingua::XXX hierarchy.
+A wrapper for Lingua:XXX::word2num modules.
 
-=head2 $Rev: 477 $
+=head2 $Rev: 577 $
 
 Lingua::Word2Num is a module for converting texts in their spoken
 language representation into numbers. This is wrapper for various
