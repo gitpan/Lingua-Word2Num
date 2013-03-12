@@ -5,6 +5,8 @@ package Lingua::Word2Num;
 
 # {{{ use block
 
+use 5.10.1;
+
 use strict;
 use warnings;
 
@@ -17,7 +19,7 @@ use Readonly;
 # {{{ variables
 
 my  Readonly::Scalar $COPY    = 'Copyright (C) PetaMem, s.r.o. 2004-present';
-our Readonly::Scalar $VERSION = 0.0577;
+our Readonly::Scalar $VERSION = 0.0682;
 
 # }}}
 # {{{ templates for functional and object interface
@@ -217,13 +219,13 @@ Lingua::Word2Num
 
 =head1 VERSION
 
-version 0.0577
+version 0.0682
 
 =head1 DESCRIPTION
 
 A wrapper for Lingua:XXX::word2num modules.
 
-=head2 $Rev: 577 $
+=head2 $Rev: 682 $
 
 Lingua::Word2Num is a module for converting texts in their spoken
 language representation into numbers. This is wrapper for various
